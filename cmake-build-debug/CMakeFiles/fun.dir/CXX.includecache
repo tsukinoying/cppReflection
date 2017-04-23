@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/opt/cpp/fun/Reflex.cpp
+map
+-
+Reflex.h
+/opt/cpp/fun/Reflex.h
+
+/opt/cpp/fun/Reflex.h
+string
+-
+
+/opt/cpp/fun/main.cpp
+iostream
+-
+Reflex.h
+/opt/cpp/fun/Reflex.h
+
